@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Todo-Task",
+  "version": "0.0.1",
+  "description": "A simple todo list",
+  "icons": {
+    "128": "icons8-todo-list-100.png"
+  },
+  "permissions": [],
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "kotlin.js",
+      "kotlinx-coroutines-core.js",
+      "shared.js",
+      "background.js"
+    ]
+  },
+  "options_page": "options.html",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons8-todo-list-100.png"
+    }
+  }
+}
