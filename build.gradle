@@ -38,6 +38,7 @@ project(":shared") {
 
         from "${processResources.destinationDir}/manifest.json"
         from "${processResources.destinationDir}/icons8-todo-list-100.png"
+        from "${processResources.destinationDir}/styles.css"
         from "${processResources.destinationDir}/bootstrap.min.css"
         from "${processResources.destinationDir}/fontawesome.all.min.js"
 

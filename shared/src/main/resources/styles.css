@@ -1,0 +1,11 @@
+.container {
+    margin: 0.25rem;
+}
+
+table, td, th {
+    vertical-align: middle;
+}
+
+#sidebar .btn {
+    margin-bottom: 0.25rem;
+}

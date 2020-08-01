@@ -3,10 +3,10 @@
   "name": "Todo-Task",
   "version": "0.0.1",
   "description": "A simple todo list",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "icons": {
     "128": "icons8-todo-list-100.png"
   },
-  "permissions": [],
   "background": {
     "persistent": false,
     "scripts": [
